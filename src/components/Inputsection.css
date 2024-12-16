@@ -1,0 +1,31 @@
+.inputsection{
+    margin-top: -15px;
+    margin-bottom: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: white;
+    padding: 30px;
+    height: 80px;
+    width: 70%;
+    font-size: 20px;
+    border-radius: 30px;
+}
+input{
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+select{
+    height: 26px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}

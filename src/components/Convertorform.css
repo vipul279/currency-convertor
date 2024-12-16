@@ -1,0 +1,54 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url('https://images.contentstack.io/v3/assets/bltc23b87e0fef43b66/blt4234e30dc420cc11/6633265e72e29a5306f99f04/bg-euro-pound-eur-gbp-aud-dollar-usd-rupee-dirham-329482309.webp?width=1200');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.convertor{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.2); /* Transparent white background */
+    border-radius: 15px; /* Smooth corners */
+    box-shadow: 0 34px 56px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+}
+
+.swapping button {
+    position: absolute; /* Make the button position relative to .convertor */
+    top: 41%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the button's own width and height */
+    background-color: rgb(50, 88, 237);
+    color: white;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.convertbutton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.convertbutton button{
+    margin-top: 16px;
+    height: 35px;
+    width: 80%;
+    font-size: 17px;
+    background-color: rgb(50, 88, 237);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
