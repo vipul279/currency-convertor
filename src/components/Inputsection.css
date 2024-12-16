@@ -1,3 +1,4 @@
+
 .inputsection {
     margin-top: -15px;
     margin-bottom: -15px;
@@ -9,7 +10,7 @@
     background-color: white;
     padding: 20px;
     height: auto; /* Adjust height for flexibility */
-    width: 90%; /* Increase width on smaller screens */
+    width: 60%; /* Increase width on smaller screens */
     font-size: 16px; /* Adjust font size for readability */
     border-radius: 20px;
 }
@@ -35,8 +36,9 @@ p {
 }
 
 /* Media Query for Mobile Screens */
-@media (max-width: 768px) {
+@media (max-width: 430px) {
     .inputsection {
+        width: 90%;
         flex-direction: column; /* Stack elements vertically */
         gap: 15px; /* Reduce gap for smaller screens */
         padding: 15px;
@@ -44,9 +46,14 @@ p {
         margin-bottom: 14px;
         margin-top:-21px;
     }
+    .leftsection{
+        width: 80px;
+    }
 
     input, select {
         width: 90%; /* Full width for better usability */
         font-size: 14px;
+        height: 25px;
     }
 }
+
