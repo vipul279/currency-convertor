@@ -52,3 +52,31 @@
     border: none;
     border-radius: 10px;
 }
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        background-size: cover;
+    }
+
+    .convertor {
+        width: 70%; /* Full width for mobile */
+        gap: 10px; /* Reduce gap */
+        padding: 15px; /* Adjust padding */
+        height: 340px;
+    }
+
+    .swapping button {
+        height: 30px; /* Adjust button size */
+        width: 80px;
+        font-size: 12px; /* Smaller font size */
+    }
+
+    .convertbutton button {
+        margin-top: -7px;
+        margin-bottom: -10px;
+        height: 35px; /* Adjust button size */
+        font-size: 14px;
+    }
+}

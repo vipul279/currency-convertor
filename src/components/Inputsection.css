@@ -1,31 +1,52 @@
-.inputsection{
+.inputsection {
     margin-top: -15px;
     margin-bottom: -15px;
     display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 20px; /* Reduce gap for smaller screens */
     background-color: white;
-    padding: 30px;
-    height: 80px;
-    width: 70%;
-    font-size: 20px;
-    border-radius: 30px;
-}
-input{
-    height: 20px;
-    border: none;
-    outline: none;
-    font-size: 18px;
-}
-select{
-    height: 26px;
-    width: 80px;
+    padding: 20px;
+    height: auto; /* Adjust height for flexibility */
+    width: 90%; /* Increase width on smaller screens */
+    font-size: 16px; /* Adjust font size for readability */
     border-radius: 20px;
-    font-size: 18px;
 }
 
-p{
+input {
+    height: 30px; /* Adjust for better touch targets */
+    border: none;
+    outline: none;
+    font-size: 16px; /* Slightly smaller font size */
+    padding: 5px; /* Add padding for better usability */
+}
+
+select {
+    height: 35px; /* Larger height for touch targets */
+    width: 100px; /* Slightly wider for better visibility */
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+p {
     padding: 0;
     margin: 0;
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    .inputsection {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 15px; /* Reduce gap for smaller screens */
+        padding: 15px;
+        height: 90px;
+        margin-bottom: 14px;
+        margin-top:-21px;
+    }
+
+    input, select {
+        width: 90%; /* Full width for better usability */
+        font-size: 14px;
+    }
 }
