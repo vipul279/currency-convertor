@@ -63,7 +63,6 @@ If you want to run the project locally, follow these steps:
 ### Mobile View:
 ![Mobile Screenshot](assets/mobile.jpg)
 
-*(Replace `#` with actual image links if available.)*
 
 ---
 
@@ -75,6 +74,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## Acknowledgments
 - Currency API used :https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${currency}.json
 
-
-me!
 
